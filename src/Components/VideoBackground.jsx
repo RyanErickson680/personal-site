@@ -17,7 +17,6 @@ const VideoBackground = () => {
         // Calculate the scroll percentage
         const scrollPercentage = scrollPosition / maxScroll;
         
-        // Ensure the video time does not exceed its duration
         if (video) {
           video.currentTime = startTime + scrollPercentage * (video.duration - startTime);
         }

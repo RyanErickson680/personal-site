@@ -1,5 +1,6 @@
 import About from "./About";
 import VideoBackground from "../Components/VideoBackground";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -14,9 +15,14 @@ const Home = () => {
       </div>
 
       {/* About Me Section */}
-      <section className="relative z-20 bg-gray-900 text-white py-20 px-4 mt-80">
-        <About/>
+      {/*
+      <section id="about" className="relative z-20 bg-gray-900 text-white py-20 px-4 mt-80">
       </section>
+
+      <section className="relative z-20 text-white">
+        <Contact/>
+      </section>
+      */}
 
     </div>
   );
