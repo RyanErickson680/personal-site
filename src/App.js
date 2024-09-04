@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import React, { useEffect, useState } from 'react'
 import Home from './Pages/Home.js'
 import Sidebar from "./Components/Sidebar.js";
