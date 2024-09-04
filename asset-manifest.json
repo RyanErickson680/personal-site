@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0086eba1.css",
-    "main.js": "/static/js/main.3dfa161d.js",
-    "static/js/787.7887cb61.chunk.js": "/static/js/787.7887cb61.chunk.js",
-    "static/media/droneVid2.MP4": "/static/media/droneVid2.367bacc7847fed123454.MP4",
-    "index.html": "/index.html",
-    "main.0086eba1.css.map": "/static/css/main.0086eba1.css.map",
-    "main.3dfa161d.js.map": "/static/js/main.3dfa161d.js.map",
-    "787.7887cb61.chunk.js.map": "/static/js/787.7887cb61.chunk.js.map"
+    "main.css": "/ryanerickson.site/static/css/main.0086eba1.css",
+    "main.js": "/ryanerickson.site/static/js/main.6a236201.js",
+    "static/js/787.7887cb61.chunk.js": "/ryanerickson.site/static/js/787.7887cb61.chunk.js",
+    "static/media/droneVid2.MP4": "/ryanerickson.site/static/media/droneVid2.367bacc7847fed123454.MP4",
+    "index.html": "/ryanerickson.site/index.html",
+    "main.0086eba1.css.map": "/ryanerickson.site/static/css/main.0086eba1.css.map",
+    "main.6a236201.js.map": "/ryanerickson.site/static/js/main.6a236201.js.map",
+    "787.7887cb61.chunk.js.map": "/ryanerickson.site/static/js/787.7887cb61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0086eba1.css",
-    "static/js/main.3dfa161d.js"
+    "static/js/main.6a236201.js"
   ]
 }
