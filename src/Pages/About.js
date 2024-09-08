@@ -1,4 +1,3 @@
-import Sidebar from "../Components/Sidebar.js";
 
 
 function About() {
