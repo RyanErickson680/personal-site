@@ -29,7 +29,7 @@ const Sidebar = () => {
           <Link to="https://www.linkedin.com/in/ryanerickson680/" className='absolute top-5 right-24 text-3xl h-20 flex justify-start items-center"'>
             <FaIcons.FaLinkedin />
           </Link>
-          <Link to="https://www.instagram.com/erickson_ryan/" className='absolute top-5 right-36 text-3xl h-20 flex justify-start items-center"'>
+          <Link to="https://www.instagram.com/erickson.photography/" className='absolute top-5 right-36 text-3xl h-20 flex justify-start items-center"'>
             <FaIcons.FaInstagram />
           </Link>
         </div>
