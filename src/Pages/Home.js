@@ -15,15 +15,14 @@ const Home = () => {
       </div>
 
       {/* About Me Section */}
-      {/*
-      <section id="about" className="relative z-20 bg-gray-900 text-white py-20 px-4 mt-80">
+      
+      <section id="about" className="relative z-20 text-transparent px-4 mt-80">
       </section>
-
+      {/*
       <section className="relative z-20 text-white">
         <Contact/>
       </section>
       */}
-
     </div>
   );
 };

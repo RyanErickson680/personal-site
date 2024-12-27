@@ -4,6 +4,8 @@ import Home from './Pages/Home.js'
 import Sidebar from "./Components/Sidebar.js";
 import About from "./Pages/About.js";
 import Contact from "./Pages/Contact.js";
+import Projects from "./Pages/Projects.js";
+import Tail from "./Pages/Tail.js";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       <Router>
       <Sidebar/>
         <Routes>
-          <Route path='/' element={<div><Home /><About/></div>} />
+          <Route path='/' element={<div><Home /><About/><Projects/><Tail/></div>} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>

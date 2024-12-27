@@ -15,11 +15,22 @@ const Sidebar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: '#000000' }}>
         {/* Sidebar toggle button */}
         <div className=" h-20 flex justify-start items-center fixed top-0 w-full z-50">
+          {/*}
           <Link to="#" className="ml-8 text-2xl h-20 flex justify-start items-center">
             <FaIcons.FaBars onClick={showSidebar} />
+          </Link>
+          */}
+          <Link to="https://github.com/RyanErickson680" className='absolute top-5 right-10 text-3xl h-20 flex justify-start items-center"'>
+            <FaIcons.FaGithub />
+          </Link>
+          <Link to="https://www.linkedin.com/in/ryanerickson680/" className='absolute top-5 right-24 text-3xl h-20 flex justify-start items-center"'>
+            <FaIcons.FaLinkedin />
+          </Link>
+          <Link to="https://www.instagram.com/erickson_ryan/" className='absolute top-5 right-36 text-3xl h-20 flex justify-start items-center"'>
+            <FaIcons.FaInstagram />
           </Link>
         </div>
 
