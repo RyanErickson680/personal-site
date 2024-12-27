@@ -32,6 +32,9 @@ const Sidebar = () => {
           <Link to="https://www.instagram.com/erickson.photography/" className='absolute top-5 right-36 text-3xl h-20 flex justify-start items-center"'>
             <FaIcons.FaInstagram />
           </Link>
+          <Link to="mailto:ericks65@purdue.edu" className='absolute top-5 right-48 text-3xl h-20 flex justify-start items-center"'>
+            <FaIcons.FaEnvelope />
+          </Link>
         </div>
 
         {/* Sidebar menu */}

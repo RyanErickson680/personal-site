@@ -49,7 +49,7 @@ const ImageZoomOutOnScroll = () => {
     return (
       <div className="fixed top-0 left-0 w-full h-full z-0 overflow-hidden">
         <div
-        className="fixed top-0 left-0 w-full h-full z-0 transition-transform duration-200"
+        className="fixed top-0 left-0 w-full h-full z-0 transition-transform duration-0"
         ref={imageRef}
         style={{
           backgroundImage: `url(${backgroundImage})`,
